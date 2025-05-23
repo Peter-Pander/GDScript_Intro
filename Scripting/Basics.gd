@@ -2,6 +2,7 @@
 extends EditorScript
 
 func _run() -> void:
-	print("hello")
-	var hero: String = 'Frodo don\'t do this'
-	print (hero)
+var name = "Frodo"
+var race = "Hobbit"
+var result = "%s is a %s" % [name, race]
+print(result)
